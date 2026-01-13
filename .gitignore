@@ -1,0 +1,29 @@
+# Entorno virtual
+.venv/
+venv/
+env/
+
+# Base de datos original (no subir datos sensibles)
+tickets.csv
+metricas_producto.csv
+recomendaciones_finales.csv
+
+# Archivos temporales
+*.tmp
+*.log
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Python bytecode
+__pycache__/
+*.pyc
+*.pyo
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
